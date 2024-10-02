@@ -13,7 +13,7 @@ function About() {
                             <img src="images/background3.jpg" />
                         </div>
                         <div className="about-col-2">
-                            <h1 className="sub-title">About Me</h1>
+                            <h1 className="sub-title">About</h1>
                             <p>Aditya is a skilled software developer with two years of experience, specializing in frontend technologies like HTML, CSS, JavaScript, and React. He combines creativity and functionality to create innovative, visually stunning, and user-friendly applications.
                                 <br />
                                 <br />
