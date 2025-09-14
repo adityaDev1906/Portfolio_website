@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import TabComponent from './TabComponent';
+import Footer from './Footer';
 
 function About() {
     return (
@@ -28,6 +29,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

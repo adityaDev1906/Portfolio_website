@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header'
+import Footer from './Footer'
 
 function Services() {
     return (
@@ -39,6 +40,7 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
