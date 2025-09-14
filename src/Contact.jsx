@@ -12,15 +12,15 @@ function Contact() {
                     <div className="row">
                         <div className="contact-left">
                             <h1 className="sub-title">Contact Me</h1>
-                            <p><i className="fa-solid fa-paper-plane"></i>adityastark1111@gmail.com</p>
-                            <p><i className="fa-solid fa-square-phone"></i>9304014672</p>
+                            <p><i className="fa-solid fa-paper-plane"></i>dev.aditya1906@gmail.com</p>
+                            <p><i className="fa-solid fa-square-phone"></i>8087507527</p>
                             <div className="social-icons">
                                 <a href="https://www.facebook.com/" target="_blank"><i className="fa-brands fa-facebook"></i></a>
                                 <a href="https://twitter.com/" target="_blank"><i className="fa-brands fa-twitter"></i></a>
                                 <a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                             </div>
-                            <a href="images/Aditya_Kumar_2024.pdf" download className="btn btn2">Download CV</a>
+                            <a href="images/Aditya_Kumar_2025_dev.pdf" download className="btn btn2">Download CV</a>
                         </div>
                         <div className="contact-right">
                             <ContactForm />

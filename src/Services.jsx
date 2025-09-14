@@ -14,7 +14,7 @@ function Services() {
                             <i className="fa-solid fa-code"></i>
                             <h2>Web Development</h2>
                             <p>Web development refers to the process of creating and maintaining websites and web applications. It involves designing, coding, and deploying websites using various technologies, frameworks, and programming languages to deliver interactive and functional online experiences to users.</p>
-                            <a href="https://www.w3schools.com/whatis/" target="_blank">Learn more</a>
+                            <a href="https://www.youtube.com/@chaiaurcode/playlists" target="_blank">Learn more</a>
                         </div>
                         <div>
                             <i className="fa-brands fa-react"></i>

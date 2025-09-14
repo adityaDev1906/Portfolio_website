@@ -34,18 +34,18 @@ const TabComponent = () => {
                 {activeTab === 'skills' && (
                     <div id="skills" className="active-tab">
                         <ul>
-                            <li><span>Web Designing and Development</span><br />HTML,CSS & Javascript</li>
+                            <li><span>Web Designing and Development</span><br />HTML, CSS & Javascript</li>
                             <li><span>Frontend Development Framework</span><br />ReactJS</li>
-                            <li><span>Backend Programming Language</span><br />C++,Java</li>
-                            <li><span>Adobe Experience Manager</span><br />Adobe Target,Adobe Analytics</li>
-                            <li><span>Database</span><br />SQL</li>
+                            <li><span>Backend Programming Language</span><br />C++, Python, Java</li>
+                            <li><span>Adobe Experience Manager</span><br />Adobe Target, Adobe Analytics</li>
+                            <li><span>Database</span><br />SQL, MongoDB</li>
                         </ul>
                     </div>
                 )}
                 {activeTab === 'experience' && (
                     <div id="experience" className="active-tab">
                         <ul>
-                            <li><span>Aug 2021 - Current</span><br />System Engineer at TCS<br /><br /><p>Dynamic React.js Frontend Developer with 3+ years of experience creating responsive web applications. Proficient in Redux for state management, and skilled in HTML, CSS, and JavaScript to deliver user-friendly interfaces.  <br /> Successfully collaborated in agile teams, optimizing performance and enhancing user experience through clean, maintainable code. Committed to continuous learning and adapting to new technologies.
+                            <li><span>Aug 2021 - Current</span><br />System Engineer at TCS<br /><br /><p>Dynamic React.js Frontend Developer with 4+ years of experience building responsive, high-performance web applications. Proficient in React Query for efficient server state management and Redux Toolkit for scalable client-side state handling, with expertise in HTML, CSS, and JavaScript to craft intuitive, user-friendly interfaces.  <br /> <br /> Experienced in collaborating within agile teams to optimize performance, enhance user experience, and deliver clean, maintainable code. Committed to continuous learning, adapting quickly to emerging technologies, and driving innovation in frontend development.
                             </p></li>
                         </ul>
                     </div>
