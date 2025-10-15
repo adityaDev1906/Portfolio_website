@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import AdiLogo from '../images/adi_logo3.png';
 
 function Header() {
     return (
@@ -7,7 +8,7 @@ function Header() {
             <div className="container">
                 <nav>
                     {/* Logo and navigation bar is placed here  */}
-                    <img src="images/adi_logo3.png" className="logo" />
+                    <img src={AdiLogo} className="logo" />
                     <ul>
                         <li>
                             <Link to="/home">Home</Link>

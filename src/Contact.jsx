@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import ContactForm from './ContactForm'
 import Footer from './Footer'
+import Resume from '../images/Aditya_Kumar_2025_dev.pdf'
 
 function Contact() {
     return (
@@ -20,7 +21,7 @@ function Contact() {
                                 <a href="https://www.instagram.com/" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
                             </div>
-                            <a href="images/Aditya_Kumar_2025_dev.pdf" download className="btn btn2">Download CV</a>
+                            <a href={Resume} download className="btn btn2">Download CV</a>
                         </div>
                         <div className="contact-right">
                             <ContactForm />

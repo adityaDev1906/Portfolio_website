@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import TabComponent from './TabComponent';
 import Footer from './Footer';
+import background3 from '../images/background3.jpg';
 
 function About() {
     return (
@@ -11,7 +12,7 @@ function About() {
                 <div className="About-content">
                     <div className="row">
                         <div className="about-col-1">
-                            <img src="images/background3.jpg" />
+                            <img src={background3} alt="Background" />
                         </div>
                         <div className="about-col-2">
                             <h1 className="sub-title">About Me</h1>

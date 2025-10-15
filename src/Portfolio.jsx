@@ -1,6 +1,9 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Work3 from '../images/work-3.png';
+import Work1 from '../images/work-1.png';
+import Work2 from '../images/work-2.png';
 
 function Portfolio() {
     return (
@@ -11,7 +14,7 @@ function Portfolio() {
                     <h1 className="sub-title">My Work</h1>
                     <div className="work-list">
                         <div className="work">
-                            <img src="images/work-3.png" />
+                            <img src={Work3} alt="Work 3" />
                             <div className="layer">
                                 <h3>Online Shopping App</h3>
                                 <p>Shop your favorite brands, discover deals, and enjoy fast delivery—all in one app.
@@ -20,7 +23,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="work">
-                            <img src="images/work-1.png" />
+                            <img src={Work1} alt="Work 1" />
                             <div className="layer">
                                 <h3>Social Media App</h3>
                                 <p>The app connects you to the talented people around the world. Share your thoughts, ideas, and creations with a global audience.
@@ -29,7 +32,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="work">
-                            <img src="images/work-2.png" />
+                            <img src={Work2} alt="Work 2" />
                             <div className="layer">
                                 <h3>Learning App</h3>
                                 <p>
